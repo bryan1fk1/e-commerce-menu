@@ -5,7 +5,7 @@ Este es un proyecto simple de una tienda ficticia de electronica, hecho con **HT
 ## Características
 
 - Maquetación semántica con HTML5
-- Estilos responsivos con CSS3
+- Estilos responsivos con CSS
 - Íconos personalizados
 - Paleta de colores inspirada en videojuegos
 
