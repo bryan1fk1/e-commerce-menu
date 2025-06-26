@@ -1,14 +1,19 @@
 body {
-  background-image:url(./images/fondo-videojuegos.jpg);
+  background-image: url(./images/fondo-videojuegos.jpg);
   background-size: cover;
+  background-position: center;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   font-size: 18px;
   font-family: sans-serif;
-  padding: 150px;
 }
 
 .container {
- max-width: 450px;
+ max-width: 400px;
  margin: auto;
  background-color: rgba(0, 0, 0, 0.7);
  border: 2px solid #00f7ff;
@@ -21,7 +26,7 @@ body {
   font-style: italic;
   font-size: 16px;
 }
-
+/*************** Sección Productos ****************/
 h1, h2 {
   text-align: center;
 }
@@ -29,6 +34,7 @@ h1, h2 {
 .item {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 img {
@@ -41,6 +47,10 @@ hr {
   height: 2px;
   background-color: #3f0f3d;
   border-color:#3f0f3d;
+}
+
+.price, .name{
+  font-weight: bold;
 }
 
 /********************* Footer *****************/
@@ -58,3 +68,14 @@ a {
 a:hover {
   color: red;
 }
+
+
+/*Cambie mi padding y implementé flexbox para centrarlo verticalmente/
+/*pequeños ajustes de ancho y max-width en mi .container*/
+/*Agregué pequeño espacios a mis .item para que no esten muy juntos
+/*Agregue "alt" amis imagenes para que tengan accesibilidad*/
+/*agregando price e name para destacar nombres e precios*/
+/*en img puse ruta absoluta , lo quite y lo arreglé... porque el proyecto es local*/
+/*En html separaré por bloques poniendo "sección de mouses y en CSS: Seccion de productos"*/
+/*Arregle mi footer para que sea mas semantico */
+/*cambie el nombre del alt de del img para que sea mas descriptivo*/
